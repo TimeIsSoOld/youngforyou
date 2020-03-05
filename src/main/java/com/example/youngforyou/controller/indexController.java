@@ -23,7 +23,7 @@ public class indexController extends BaseController {
     @RequestMapping("/index")
     public Result sayHello(){
 
-        IPage<UmsAdmin> page = umsAdminService.page(new Page<>(1, 10));
+        IPage<UmsAdmin> page = umsAdminService.page(new Page<>(1, 5));
         return getSuccess(page);
     }
 
