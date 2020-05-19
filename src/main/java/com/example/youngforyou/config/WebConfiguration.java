@@ -14,6 +14,7 @@ public class WebConfiguration implements WebMvcConfigurer {
     static {
         pathUrl.add("/**/login");
         pathUrl.add("/**/signin");
+        pathUrl.add("/test/**");
     }
 
 
@@ -21,6 +22,7 @@ public class WebConfiguration implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         InterceptorRegistration registration = registry.addInterceptor(new AdminInterceptor());
         registration.addPathPatterns("/**");                      //所有路径都被拦截
+        registration.excludePathPatterns(pathUrl);                //放行路径
         registration.excludePathPatterns(                         //添加不拦截路径
                 "/**/*.html",            //html静态资源
                 "/**/*.js",              //js静态资源

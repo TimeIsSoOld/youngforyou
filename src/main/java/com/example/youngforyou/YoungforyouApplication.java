@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@MapperScan(basePackages = "com.example.**.dao")
+@MapperScan(basePackages = {"com.example.**.dao"})
 public class YoungforyouApplication {
 
     public static void main(String[] args) {
