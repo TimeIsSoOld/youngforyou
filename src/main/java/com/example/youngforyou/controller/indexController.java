@@ -39,7 +39,6 @@ public class indexController extends BaseController {
 
     @RequestMapping("/testThreeLeavl")
     public Result testThreeLeavl(){
-        LOG.info("-----日志------");
         BasePage<Map<String, Object>> page = new BasePage<>(1,5);
         BasePage<Map<String, Object>>list=indexService.getUserList(page);
         return getSuccess(list);
