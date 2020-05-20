@@ -1,0 +1,55 @@
+Manifest-Version: 1.0
+Class-Path: spring-aop-5.2.2.RELEASE.jar spring-data-keyvalue-2.2.3.RE
+ LEASE.jar snakeyaml-1.25.jar spring-oxm-5.2.2.RELEASE.jar hibernate-v
+ alidator-6.0.18.Final.jar springfox-spi-2.7.0.jar mongodb-driver-core
+ -3.11.2.jar spring-retry-1.2.4.RELEASE.jar jsqlparser-1.2.jar netty-t
+ ransport-4.1.43.Final.jar jakarta.annotation-api-1.3.5.jar guava-18.0
+ .jar tomcat-embed-core-9.0.29.jar netty-resolver-4.1.43.Final.jar pag
+ ehelper-spring-boot-autoconfigure-1.2.10.jar mapstruct-1.1.0.Final.ja
+ r spring-boot-actuator-autoconfigure-2.2.2.RELEASE.jar javassist-3.21
+ .0-GA.jar hutool-all-4.5.7.jar spring-webmvc-5.2.2.RELEASE.jar spring
+ -tx-5.2.2.RELEASE.jar micrometer-core-1.3.1.jar spring-plugin-metadat
+ a-1.2.0.RELEASE.jar spring-messaging-5.2.2.RELEASE.jar jakarta.valida
+ tion-api-2.0.1.jar log4j-api-2.12.1.jar spring-boot-starter-2.2.2.REL
+ EASE.jar log4j-to-slf4j-2.12.1.jar mybatis-plus-core-3.1.0.jar HdrHis
+ togram-2.1.11.jar HikariCP-3.4.1.jar netty-buffer-4.1.43.Final.jar lo
+ gback-classic-1.2.3.jar spring-boot-starter-validation-2.2.2.RELEASE.
+ jar spring-boot-actuator-2.2.2.RELEASE.jar classmate-1.5.1.jar fastjs
+ on-1.2.61.jar spring-boot-starter-amqp-2.2.2.RELEASE.jar reactive-str
+ eams-1.0.3.jar mybatis-plus-extension-3.1.0.jar spring-data-mongodb-2
+ .2.3.RELEASE.jar springfox-core-2.7.0.jar jackson-datatype-jdk8-2.10.
+ 1.jar spring-boot-starter-web-2.2.2.RELEASE.jar mysql-connector-java-
+ 8.0.15.jar lombok-1.18.10.jar freemarker-2.3.28.jar jackson-datatype-
+ jsr310-2.10.1.jar spring-beans-5.2.2.RELEASE.jar reflections-0.9.11.j
+ ar spring-boot-starter-jdbc-2.2.2.RELEASE.jar slf4j-api-1.7.29.jar ja
+ ckson-module-parameter-names-2.10.1.jar reactor-core-3.3.1.RELEASE.ja
+ r tomcat-embed-websocket-9.0.29.jar bson-3.11.2.jar mybatis-plus-3.1.
+ 0.jar aspectjweaver-1.9.5.jar mybatis-generator-core-1.4.0.jar jackso
+ n-databind-2.10.1.jar tomcat-embed-el-9.0.29.jar springfox-swagger-ui
+ -2.7.0.jar spring-core-5.2.2.RELEASE.jar spring-boot-starter-actuator
+ -2.2.2.RELEASE.jar spring-web-5.2.2.RELEASE.jar springfox-spring-web-
+ 2.7.0.jar springfox-schema-2.7.0.jar jackson-annotations-2.10.1.jar n
+ etty-handler-4.1.43.Final.jar lettuce-core-5.2.1.RELEASE.jar jul-to-s
+ lf4j-1.7.29.jar swagger-models-1.5.13.jar pagehelper-spring-boot-star
+ ter-1.2.10.jar mybatis-plus-annotation-3.1.0.jar spring-boot-starter-
+ aop-2.2.2.RELEASE.jar mybatis-spring-boot-autoconfigure-2.0.0.jar myb
+ atis-plus-boot-starter-3.1.0.jar jboss-logging-3.4.1.Final.jar spring
+ fox-swagger2-2.7.0.jar mybatis-plus-generator-3.1.0.jar netty-common-
+ 4.1.43.Final.jar spring-data-redis-2.2.3.RELEASE.jar spring-boot-star
+ ter-data-redis-2.2.2.RELEASE.jar jackson-core-2.10.1.jar mybatis-spri
+ ng-boot-starter-2.0.0.jar spring-amqp-2.2.2.RELEASE.jar spring-boot-s
+ tarter-json-2.2.2.RELEASE.jar spring-boot-starter-logging-2.2.2.RELEA
+ SE.jar spring-context-support-5.2.2.RELEASE.jar LatencyUtils-2.0.3.ja
+ r netty-codec-4.1.43.Final.jar springfox-swagger-common-2.7.0.jar spr
+ ing-boot-starter-data-mongodb-2.2.2.RELEASE.jar spring-rabbit-2.2.2.R
+ ELEASE.jar byte-buddy-1.10.4.jar amqp-client-5.7.3.jar spring-jcl-5.2
+ .2.RELEASE.jar spring-context-5.2.2.RELEASE.jar spring-boot-2.2.2.REL
+ EASE.jar mybatis-spring-2.0.0.jar druid-1.1.10.jar spring-data-common
+ s-2.2.3.RELEASE.jar swagger-annotations-1.5.13.jar druid-spring-boot-
+ starter-1.1.10.jar mybatis-3.5.0.jar logback-core-1.2.3.jar spring-pl
+ ugin-core-1.2.0.RELEASE.jar pagehelper-5.1.8.jar spring-boot-starter-
+ tomcat-2.2.2.RELEASE.jar spring-boot-autoconfigure-2.2.2.RELEASE.jar 
+ spring-jdbc-5.2.2.RELEASE.jar spring-expression-5.2.2.RELEASE.jar mon
+ godb-driver-3.11.2.jar
+Main-Class: com.example.youngforyou.YoungforyouApplication
+

@@ -3,6 +3,8 @@ server:
   port: 8089
   servlet:
     context-path: /youngforyou_admin_dev/
+  tomcat:
+    max-http-header-size: 8192
 
 spring:
   datasource:
@@ -52,3 +54,6 @@ redis:
       authCode: 120
 
 
+logging:
+  file:
+    path: ./logs
