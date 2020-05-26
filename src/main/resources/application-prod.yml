@@ -14,6 +14,14 @@ spring:
     url: jdbc:mysql://121.42.229.111:3306/yjnlifedb?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
     password: 123456
+    druid:
+      test-while-idle: true
+      time-between-connect-error-millis: 6000
+      validation-query: SELECT 1
+      test-on-borrow: false
+      test-on-return: false
+      max-wait: 60000
+      use-unfair-lock: true
   redis:
     host: 121.42.229.111
     database: 0

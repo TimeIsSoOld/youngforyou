@@ -12,6 +12,7 @@ import com.example.youngforyou.service.IndexService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -30,14 +31,14 @@ public class indexController extends BaseController {
 
     private static final Logger LOG = LoggerFactory.getLogger(indexController.class);
 
-    @RequestMapping("/index")
+    @GetMapping("/index")
     public Result sayHello(){
 
         IPage<UmsAdmin> page = umsAdminService.page(new Page<>(1, 5));
         return getSuccess(page);
     }
 
-    @RequestMapping("/testThreeLeavl")
+    @GetMapping("/testThreeLeavl")
     public Result testThreeLeavl(){
         BasePage<Map<String, Object>> page = new BasePage<>(1,5);
         BasePage<Map<String, Object>>list=indexService.getUserList(page);

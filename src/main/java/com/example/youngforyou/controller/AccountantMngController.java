@@ -17,6 +17,8 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -37,8 +39,8 @@ public class AccountantMngController extends BaseController {
     })
     @PostMapping("/importDate")
     @ResponseBody
-    public Result importDate(@RequestParam("file") MultipartFile uploadFile) {
+    public Result importDate(@RequestParam("file") MultipartFile uploadFile , HttpServletResponse response) {
      String Date = accountantService.importData(uploadFile);
-     return getSuccess(Date);
+        return getSuccess(Date);
     }
 }

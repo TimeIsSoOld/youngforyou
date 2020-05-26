@@ -18,6 +18,14 @@ spring:
     database: 0
     port: 6379
     password: 123456
+    druid:
+      test-while-idle: true
+      time-between-connect-error-millis: 6000
+      validation-query: SELECT 1
+      test-on-borrow: false
+      test-on-return: false
+      max-wait: 60000
+      use-unfair-lock: true
     jedis:
       pool:
         max-active: 8

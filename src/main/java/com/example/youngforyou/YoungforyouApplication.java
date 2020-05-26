@@ -3,9 +3,10 @@ package com.example.youngforyou;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 
-@SpringBootApplication
+@SpringBootApplication(exclude = MongoAutoConfiguration.class)
 @MapperScan(basePackages = {"com.example.**.dao"})
 public class YoungforyouApplication {
 
