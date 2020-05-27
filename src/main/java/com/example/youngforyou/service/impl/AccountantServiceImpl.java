@@ -29,7 +29,7 @@ public class AccountantServiceImpl implements AccountantService {
                 wb = WorkbookFactory.create(is);
             }
 
-            Sheet sheet = wb.getSheetAt(0);
+            Sheet sheet = wb.getSheetAt(3);
             if(sheet==null){
                 return  "2";
             }
