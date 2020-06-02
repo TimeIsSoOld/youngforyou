@@ -6,4 +6,16 @@
     <select id="getUserList" resultType="java.util.HashMap">
         select * from BASE_USER
     </select>
+
+    <select id="getsphm" resultType="java.util.HashMap">
+     SELECT group_concat(t2.sphm) SPHM ,t2.wyry
+        from(
+SELECT  DISTINCT t1.sphm ,t1.wyry from yuan_table t1
+WHERE t1.khqc=#{p.khqc}
+and t1.ph=#{p.ph}
+and t1.pm=#{p.pm}
+and t1.gg=#{p.gg}
+and t1.dddh like CONCAT('%','-2020','%')  ) t2
+GROUP BY t2.wyry
+    </select>
 </mapper>
